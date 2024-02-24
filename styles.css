@@ -160,3 +160,23 @@ nav {
     background-color: #ffffff;
 }
 
+/* Style the Contact Information Section */
+.contact-info {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Style the Contact Methods */
+.contact-method {
+    background-color: #ddd;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+/* Social Media Links Hover Effect */
+.contact-method ul li a:hover {
+    color: #007BFF;
+}
