@@ -1,0 +1,89 @@
+/* Header styling */
+.header {
+    background-color: #333; /* Dark gray background */
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between; /* Aligns logo to the left and company name to the right */
+}
+
+/* Navigation Bar styling */
+nav {
+    display: flex;
+    justify-content: space-around; /* Equal spacing between navigation links */
+    width: 100%; /* Full width of the page */
+    background-color: #333; /* Dark gray background for visibility */
+}
+
+.nav-link {
+    padding: 10px 20px; /* Padding around navigation links for clickable area */
+    color: white; /* For better contrast and visibility */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Ensures that links have a visual feedback on hover */
+.nav-link:hover {
+    background-color: #555; /* Slightly lighter gray for hover effect */
+}
+
+.company-name {
+    color: white; /* Sets the company name text color to white */
+    margin-left: auto; /* Pushes the company name to the left, centering it */
+    margin-top: 40px;
+    
+}
+
+/* About Us Section Alignment Fix */
+.about-us {
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd; /* Medium gray background */
+    padding: 20px;
+    margin: 20px;
+    width: 90%; /* Adjust the width of the flex container */
+    margin-left: auto; /* Align the flex container to the center horizontally */
+    margin-right: auto; 
+}
+
+/* Ensuring the <p> tag in the About Us section takes full width for proper alignment */
+.about-us p {
+    width: 100%; /* Ensures the paragraph uses the full width of its container */
+}
+
+/* Shop Now Button */
+.shop-now-btn {
+    background-color: #4CAF50; /* Green background */
+    padding: 10px;
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* Text color */
+    margin: 20px; /* Margin around the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    margin-left: 4%; 
+}
+
+/* Ensures that button has a visual feedback on hover */
+.shop-now-btn:hover {
+    background-color: #45a049; /
+}
+
+/* Customer Reviews Section */
+.customer-reviews {
+    display: flex;
+    flex-direction: column; /* Organizes reviews in a column */
+    background-color: #ddd; /* Medium gray background */
+    padding: 20px;
+    margin: 20px;
+    width: 90%; /* Adjust the width of the flex container */
+    margin-left: auto; /* Align the flex container to the center horizontally */
+    margin-right: auto;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #333; /* Dark gray background */
+    padding: 10px;
+    margin: 0;
+    color: white; /* Text color */
+    text-align: center; /* Centers the copyright notice */
+}
