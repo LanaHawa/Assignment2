@@ -180,3 +180,65 @@ nav {
 .contact-method ul li a:hover {
     color: #007BFF;
 }
+
+/* Login Form Section */
+.login-form {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* Form Fields */
+.login-form label {
+    display: block;
+    margin: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 200px; /* Adjust as needed */
+    
+
+}
+
+.login-form input[type="text"]::placeholder,
+.login-form input[type="password"]::placeholder {
+    color: #999; /* Placeholder text color */
+}
+
+/* Login Button */
+.login-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 0.5;
+    transition: background-color 0.3s, opacity 0.3s;
+    border: none;
+}
+
+.login-btn:hover {
+    background-color: #45A049;
+    opacity: 1.0;
+}
+
+/* Signup Link */
+.signup-link {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
